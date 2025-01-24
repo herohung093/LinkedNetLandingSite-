@@ -67,9 +67,9 @@ function Privacy() {
           <p className="mb-4">
             If you have any questions about this Privacy Policy, please contact us at:
             <br />
-            Email: privacy@linkednet.com
+            Email: hung.vm2574@gmail.com
             <br />
-            Address: 1234 Salon Street, Beauty City, BC 12345
+            Address: 33 Nanovich Ave, Girrawheen WA
           </p>
         </section>
       </div>
