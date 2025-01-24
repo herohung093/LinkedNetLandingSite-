@@ -3,17 +3,16 @@ import { useLocation } from 'react-router-dom';
 import { ContactForm } from '../components/ContactForm';
 import { SupportOption } from '../components/SupportOption';
 import { ResourceOption } from '../components/ResourceOption';
+import { KnowledgeBase } from '../components/KnowledgeBase';
 import { supportOptions, resourceOptions } from '../content/support';
 
 function Support() {
   const location = useLocation();
 
   useEffect(() => {
-    // Check if the URL has a hash and scroll to that element
     if (location.hash === '#contact') {
       const element = document.getElementById('contact');
       if (element) {
-        // Add a small delay to ensure smooth scrolling after page load
         setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth' });
         }, 100);
@@ -22,7 +21,6 @@ function Support() {
   }, [location]);
 
   const handleContactSubmit = (data: { name: string; email: string; phone: string; message: string }) => {
-    // Handle form submission
     console.log('Form submitted:', data);
   };
 
@@ -47,8 +45,16 @@ function Support() {
         </div>
       </div>
 
-      {/* Resources Section */}
+      {/* Knowledge Base Section */}
       <div className="bg-gray-50 py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-12 text-center">Knowledge Base</h2>
+          <KnowledgeBase />
+        </div>
+      </div>
+
+      {/* Resources Section */}
+      <div className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-12 text-center">Self-Help Resources</h2>
           
