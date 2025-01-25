@@ -31,11 +31,11 @@ export function Navbar() {
   }, [isOpen]);
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-50">
+    <nav className="bg-white shadow-md fixed w-full z-50" role="navigation" aria-label="Main navigation">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x-2" aria-label="LinkedNet Home">
               <Scissors className="h-8 w-8 text-indigo-600" />
               <span className="text-xl font-bold text-gray-900">{config.company.name}</span>
             </Link>
