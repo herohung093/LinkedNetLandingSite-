@@ -19,25 +19,25 @@ export const featuresList = [
   {
     icon: Calendar,
     title: "Smart Scheduling",
-    description: "AI-powered scheduling system that optimizes your calendar and prevents double-bookings automatically.",
+    description: "Smart scheduling system designed for Australian salons, with timezone support across all states and territories.",
     isKeyFeature: true
   },
   {
     icon: Users,
     title: "Staff Management",
-    description: "Comprehensive staff management with performance tracking, scheduling, and commission calculations.",
+    description: "Complete staff management system with award rate calculations, penalty rates, and Australian employment compliance.",
     isKeyFeature: true
   },
   {
     icon: Scissors,
     title: "Services Management",
-    description: "Efficiently manage your service catalog, pricing, duration, and staff assignments all in one place.",
+    description: "Manage your service menu with GST-inclusive pricing, booking durations, and staff assignments all in one place.",
     isKeyFeature: true
   },
   {
     icon: Clock,
     title: "24/7 Online Booking",
-    description: "Let clients book appointments anytime through your customized booking page.",
+    description: "Allow clients to book appointments anytime, with smart timezone handling for all Australian states.",
     isKeyFeature: true
   },
   {
@@ -49,13 +49,13 @@ export const featuresList = [
   {
     icon: Shield,
     title: "Secure Payments",
-    description: "Integrated payment processing with secure transactions and automated invoicing.",
+    description: "Secure payment processing with support for major Australian banks and payment methods including EFTPOS and AfterPay.",
     isKeyFeature: false
   },
   {
     icon: MessageSquare,
     title: "Client Communication",
-    description: "Automated appointment reminders and follow-ups via SMS and email.",
+    description: "Automated SMS and email reminders using Australian mobile carriers and local phone number formats.",
     isKeyFeature: false
   },
   {
@@ -67,7 +67,7 @@ export const featuresList = [
   {
     icon: CreditCard,
     title: "Point of Sale",
-    description: "Integrated POS system for managing in-person payments and inventory.",
+    description: "Australian GST-compliant POS system with integrated EFTPOS and complete financial reporting.",
     isKeyFeature: false
   },
   {

@@ -15,10 +15,10 @@ export interface TeamMember {
 }
 
 export const stats = [
-  { number: "10,000+", label: "Salon Partners" },
-  { number: "1M+", label: "Appointments Booked" },
+  { number: "2,000+", label: "Australian Salons" },
+  { number: "500K+", label: "Appointments Booked" },
   { number: "98%", label: "Customer Satisfaction" },
-  { number: "50+", label: "Countries" }
+  { number: "8", label: "States & Territories" }
 ] as const;
 
 export const values: Value[] = [
@@ -46,21 +46,21 @@ export const values: Value[] = [
 
 export const teamMembers: TeamMember[] = [
   {
-    name: "Sarah Johnson",
+    name: "Sarah Mitchell",
     role: "Chief Executive Officer",
-    experience: "15+ years of experience in salon industry and technology",
+    experience: "15+ years of experience in Australian salon industry",
     imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80"
   },
   {
-    name: "Michael Chen",
+    name: "Michael Zhang",
     role: "Chief Technology Officer",
-    experience: "12+ years of experience in software development",
+    experience: "12+ years of experience in Australian tech companies",
     imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80"
   },
   {
-    name: "Emma Rodriguez",
+    name: "Emma Thompson",
     role: "Chief Operating Officer",
-    experience: "10+ years of experience in business operations",
+    experience: "10+ years of experience in Australian salon operations",
     imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80"
   }
 ] as const;

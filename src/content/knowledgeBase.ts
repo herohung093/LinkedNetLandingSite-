@@ -10,7 +10,7 @@ export const categories = [
 export const articles = [
   {
     title: 'Quick Start Guide',
-    content: 'Learn how to set up your salon profile, add services, and start accepting bookings in under 15 minutes.',
+    content: 'Set up your Australian salon profile with GST-inclusive pricing and start accepting bookings in under 15 minutes.',
     category: 'Getting Started',
     link: '/kb/quick-start-guide'
   },
@@ -22,13 +22,13 @@ export const articles = [
   },
   {
     title: 'Staff Scheduling Best Practices',
-    content: 'Learn how to create optimal staff schedules, manage time off requests, and track performance metrics.',
+    content: 'Create compliant staff schedules following Australian Fair Work guidelines, manage leave requests, and track performance.',
     category: 'Staff Management',
     link: '/kb/staff-scheduling'
   },
   {
     title: 'Setting Up Payment Methods',
-    content: 'Configure your payment settings, including accepted payment methods, cancellation policies, and deposit requirements.',
+    content: 'Configure payment settings with Australian payment methods including EFTPOS, AfterPay, and major bank integrations.',
     category: 'Payments',
     link: '/kb/payment-setup'
   },
