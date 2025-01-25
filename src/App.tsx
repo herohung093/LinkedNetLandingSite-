@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Scissors } from 'lucide-react';
+import { Scissors, Facebook } from 'lucide-react';
+import { config } from './config';
 import { Navbar } from './components/Navbar';
 import Home from './pages/Home';
 import Privacy from './pages/Privacy';
@@ -41,6 +42,17 @@ function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Contact</h3>
             <ul className="space-y-4">
+              <li>
+                <a 
+                  href={config.social.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-gray-600 hover:text-indigo-600"
+                >
+                  <Facebook className="h-5 w-5 mr-2" />
+                  <span>Follow us on Facebook</span>
+                </a>
+              </li>
               <li><a href="mailto:hung.vm2574@gmail.com" className="text-gray-600 hover:text-indigo-600">hung.vm2574@gmail.com</a></li>
               <li className="text-gray-600">33 Nanovich Ave</li>
               <li className="text-gray-600">Girrawheen, Western Australia</li>

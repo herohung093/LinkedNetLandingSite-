@@ -15,7 +15,10 @@ export const config = {
     phone: '0401070232'
   },
   web3forms: {
-    apiKey: 'a2b4f9ac-6e94-47b6-91a2-96099b689c9f'
+    apiKey: 'a2b4f9ac-6e94-47b6-91a2-96099b689c9f',
+  },
+  social: {
+    facebook: 'https://www.facebook.com/linkednet.au/'
   }
 } as const;
 
